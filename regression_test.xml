@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="swaglab">
+    <test name="project">
+        <classes>
+            <!-- Include your test classes here -->
+            <class name="F1authenticationTest"/>
+            <class name="F2_product"/>
+            <class name="F3_cart"/>
+            <class name="F4_overview"/>
+        </classes>
+    </test>
+</suite>
