@@ -81,7 +81,6 @@ public class F2_HomePage {
 
         selectSortOption(option);
         List<?> actualItems = criterion.equals("Name") ? getProductNames() : getProductPricesAsString();
-        System.out.println(actualItems);
         List<?> expectedItems = new ArrayList<>(actualItems);
         if (ascending) {
             if (criterion.equals("Name")) {
@@ -96,8 +95,6 @@ public class F2_HomePage {
                 expectedItems.sort(Collections.reverseOrder());
             }
         }
-        System.out.println(actualItems);
-        System.out.println(expectedItems);
         return actualItems.equals(expectedItems);
     }
 
