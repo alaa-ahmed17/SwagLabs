@@ -6,12 +6,12 @@
         { "username": "error_user", "password": "secret_sauce" },
         { "username": "visual_user", "password": "secret_sauce" }
     ],
-    "invalidUser": [
+    "invalidUsers": [
         { "username": "standard_user", "password": "wrong_password" },
         { "username": "invalid_user1", "password": "secret_sauce" },
         { "username": "invalid_user1", "password": "wrong_password" }
     ],
-    "lockedUser":[
+    "lockedUsers":[
         { "username" : "locked_out_user" , "password": "secret_sauce"}
     ]
 

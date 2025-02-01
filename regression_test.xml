@@ -3,8 +3,8 @@
     <test name="project">
         <classes>
             <!-- Include your test classes here -->
-            <class name="F1authenticationTest"/>
-            <class name="F2_product"/>
+            <class name="f1AuthenticationTests.F1authenticationTest"/>
+            <class name="f2Products.F2productTest"/>
             <class name="F3_cart"/>
             <class name="F4_overview"/>
         </classes>
