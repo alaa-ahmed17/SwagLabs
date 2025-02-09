@@ -6,6 +6,8 @@ import org.openqa.selenium.WebElement;
 
 import java.util.List;
 
+import static java.lang.Integer.parseInt;
+
 public class F3_cart {
     private final WebDriver driver;
 
@@ -58,5 +60,11 @@ public class F3_cart {
     // Click Continue Shopping Button
     public void clickContinueShopping() {
         driver.findElement(CONTINUE_SHOPPING_BUTTON).click();
+    }
+
+    public int getCartItemCount(){
+        return !driver.findElements(CART_BADGE).isEmpty()
+                ? parseInt(driver.findElement(CART_BADGE).getText())
+                : 0;
     }
 }

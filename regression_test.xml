@@ -5,8 +5,10 @@
             <!-- Include your test classes here -->
             <class name="f1AuthenticationTests.F1authenticationTest"/>
             <class name="f2Products.F2productTest"/>
-            <class name="F3_cart"/>
-            <class name="F4_overview"/>
+            <class name="F3_cartPageTest"/>
+            <class name="F4_checkoutTest"/>
+            <class name="F5_overviewTest"/>
+            <class name="F6menuTest"/>
         </classes>
     </test>
 </suite>
